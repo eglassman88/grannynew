@@ -1,0 +1,146 @@
+<!--  This landing page has been captured by Landing Page Ripper Chrome extension developed by thelanders.club. If you want to get any lander cleaned, visit thelanders.club -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grounded Footwear is currently available for Discount for Seniors</title>
+  <link rel="shortcut icon" href="revcheck.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="header">
+    <center>
+      <a class="logo" href="#">
+        <img id="logo" src="logo.webp" style="max-width: 200px;" />
+      </a>
+    </center>
+  </div>
+  <center>
+    <nav class="clearfix">
+      <ul class="clearfix">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Shipping</a>
+        </li>
+        <li>
+          <a href="#">Returns</a>
+        </li>
+      </ul>
+      <a href="#" id="pull">Menu</a>
+    </nav>
+  </center>
+  <div id="container">
+    <div id="content" class="quiz">
+      <div class="jumbotron" style="background: #f1f1f1; border-radius: 10px; padding: 5px; margin-bottom: 10px;">
+        <div class="quiz-heading">
+          <p>
+            <b>We've checked for you:</b>
+          </p>
+          <p> As of <u id="date">
+              <!-- Date Script -->
+              <script>
+                var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+                var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                var now = new Date();
+                document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate());
+              </script>
+            </u>
+          </p>
+          <hr />
+          <p>
+            <i> Grounded Footwear: <b>
+                <u>9 Pairs Black Remaining </u>
+              </b>
+            </i>
+          </p>
+          <p></p>
+          <p>
+            <i> Grounded Footwear: <b>
+                <u>13 Pairs White Remaining </u>
+              </b>
+            </i>
+          </p>
+          <p></p>
+          <hr />
+          <p>
+            <b>
+              <u>
+                <i>Grounded Footwear is currently available for 50% Off for Seniors. </i>
+              </u> Please answer 2 questions to see if you qualify for the special discount. </b>
+          </p>
+          <b></b>
+        </div>
+        <b></b>
+      </div>
+      <b>
+        <a href="#q1">
+          <i style="color: #5cb85c; font-size: 16px;" class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i>
+        </a>
+        <form name="quiz-q1" id="quiz-q1">
+          <a name="q1">
+            <img class="imgres" src="sgr-min.jpg" />
+            <h3 class="question">Question 1 of 2</h3>
+            <p>
+              <i class="fa fa-arrow-right" aria-hidden="true "></i>
+              <i> Grounded Footwear has already caused a stir in the health and wellness world, with over 100,000
+                satisfied customers and counting. With its impressive track record, Grounded Footwear is already going
+                viral on social media and is selling out fast. </i>
+            </p>
+            <hr />
+            <p>now, please answer truthfully:</p>
+            <h4>Were you born before 1968?</h4>
+            <p>Note: this 50% Off promotion is exclusive for seniors citizens.</p>
+          </a>
+          <div class="answers-1">
+            <a href="../q2/index.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Yes</a>
+            <a href="../disc/index.html" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">No</a>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
+      </b>
+    </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Custom JS Script -->
+  <script>
+    $(function () {
+      var pull = $('#pull');
+      menu = $('nav ul');
+      menuHeight = menu.height();
+      $(pull).on('click', function (e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+      $(window).resize(function () {
+        var w = $(window).width();
+        if (w > 320 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

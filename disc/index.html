@@ -1,0 +1,90 @@
+<!--  This landing page has been captured by Landing Page Ripper Chrome extension developed by thelanders.club. If you want to get any lander cleaned, visit thelanders.club -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grounded Footwear is currently available for Discount for Seniors</title>
+  <link rel="shortcut icon" href="revcheck.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="header" style="margin-top: 5px;">
+    <center>
+      <a class="logo" href="#">
+        <img id="logo" src="logo.webp" style="max-width: 200px;" />
+      </a>
+    </center>
+  </div>
+  <center>
+    <nav class="clearfix">
+      <ul class="clearfix">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Shipping</a>
+        </li>
+        <li>
+          <a href="#">Returns</a>
+        </li>
+      </ul>
+      <a href="#" id="pull">Menu</a>
+    </nav>
+  </center>
+  <div id="container">
+    <div id="content" class="quiz">
+      <form name="quiz-q2" id="quiz-q2"">
+					<h3 style=" font-size: 18.75px; color: #000;">Sorry, You do not qualify for this offer. You will be redirected to
+        Grounded Footwear in 5 seconds.</h3>
+        <br />
+        <p style=" font-size: 16px; color: #000;">Click the button below if the page does not redirect automatically.
+        </p>
+        <br />
+        <a href="http://trk.themarketingbro.com/click" style="color: #0000ff;">Go To Grounded Footwear ></a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Auto Redirect -->
+  <script>
+    setTimeout(function () {
+      window.location.replace("http://trk.themarketingbro.com/click");
+    }, 5000);
+  </script>
+
+
+  <!-- Custom JS Script -->
+  <script>
+    $(function () {
+      var pull = $('#pull');
+      menu = $('nav ul');
+      menuHeight = menu.height();
+      $(pull).on('click', function (e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+      $(window).resize(function () {
+        var w = $(window).width();
+        if (w > 320 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
